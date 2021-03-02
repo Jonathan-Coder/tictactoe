@@ -7,21 +7,21 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 
 ### Day 1 Goal 1: Set Up
 #### Planning
-- [ ] Complete the project planning document.
+- [X] Complete the project planning document.
 #### GitHub Set-Up
-- [x] Go to the repository
-- [ ] Fork this repository to your github account and import into a new Glitch project
+- [X] Go to the repository
+- [X] Fork this repository to your github account and import into a new Glitch project
 - [ ] Make your site live on gh-pages
-- [ ] Submit your website using the link on the Agenda
+- [X] Submit your website using the link on the Agenda
 
 ### Day 1 Goal 2: Create variables to keep track of game data
-- [ ] Declare a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
-- [ ] Declare a variable that keeps track of the total number of turns taken and set it equal to 0
-- [ ] Declare a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
+- [X] Declare a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
+- [X] Declare a variable that keeps track of the total number of turns taken and set it equal to 0
+- [X] Declare a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
 
 ### Day 1 Goal 3: Allow users to choose a square and change that square to an "X" or an "O" alternating
-- [ ] Declare a function with two parameters that removes the button of the corresponding ID, and changes the text of the div that is the tileId to the player variable. (Then, uncomment this function call in the starter code!)
-- [ ] Declare a function with 0 parameters that will change the current player to either "X" or "O" depending on the current player. Decide where to call this function.
+- [X] Declare a function with two parameters that removes the button of the corresponding ID, and changes the text of the div that is the tileId to the player variable. (Then, uncomment this function call in the starter code!)
+- [X] Declare a function with 0 parameters that will change the current player to either "X" or "O" depending on the current player. Decide where to call this function.
 
 #### Wrap
 - [ ] Save and submit your website using the link on the session agenda.

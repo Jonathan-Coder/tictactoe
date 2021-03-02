@@ -1,20 +1,39 @@
+var currentPlayer = "X";
+var turns = 0;
+var gameOver = false;
+var pos = 0;
 
+function elem(str){
+  return document.querySelector(str);
+}
 
+function performLogic(btnID, tileNum){
+  elem(btnID).hide;
+  elem(tileNum).innerText = currentPlayer;
+}
 
-
-
-
+function changeTurn(){
+  if(pos === 0){
+    currentPlayer = "X";
+    pos++;
+  } else {
+    currentPlayer = "O";
+    pos--;
+  }
+}
 
 $("#button1").click(function() {
-    //performLogic("#button1","#tile1");
+    performLogic("#button1","#tile1");
+  changeTurn();
 });
 
 $("#button2").click(function() {
-    //performLogic("#button2","#tile2");
+  changeTurn();
+    performLogic("#button2","#tile2");
 });
 
 $("#button3").click(function() {
-    //performLogic("#button3","#tile3");
+    performLogic("#button3","#tile3");
 });
 
 $("#button4").click(function() {
